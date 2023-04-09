@@ -6,7 +6,12 @@ domain: okmotorcycles.com
 url: https://okmotorcycles.com
 
 # Build settings
-theme: minimal
+remote_theme: pages-themes/minimal@v0.2.0
+plugins:
+- jekyll-feed
+- jekyll-sitemap
+- jekyll-seo-tag
+- jekyll-remote-theme
 
 # Exclude from processing.
 # The following items will not be processed, by default.
