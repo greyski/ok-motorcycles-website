@@ -3,13 +3,10 @@ email: okmotorcycles@gmail.com
 description: >-
   Motorcycles are okay, just like art, games, animals, places, things, you, and me.
 domain: okmotorcycles.com
-baseurl: ""
 url: https://okmotorcycles.com
 
 # Build settings
 theme: minimal
-plugins: 
-  - jekyll-feed
 
 # Exclude from processing.
 # The following items will not be processed, by default.
