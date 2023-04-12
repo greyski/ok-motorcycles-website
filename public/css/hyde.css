@@ -55,16 +55,15 @@ html {
 
 .sidebar {
   text-align: center;
-  padding: 2rem 1rem;
-  color: rgba(255,255,255,.5);
-  background-color: #202020;
+  color: #202020;
+  background-color: #fff;
 }
 @media (min-width: 48em) {
   .sidebar {
     position: fixed;
-    top: 0;
-    left: 0;
-    bottom: 0;
+    top: 1em;
+    left: 1em;
+    bottom: 1em;
     width: 18rem;
     text-align: left;
   }
@@ -72,15 +71,15 @@ html {
 
 /* Sidebar links */
 .sidebar a {
-  color: #fff;
+  color: #202020;
 }
 
 /* About section */
 .sidebar-about h1 {
-  color: #fff;
+  color: #202020;
   margin-top: 0;
   font-family: "Abril Fatface", serif;
-  font-size: 3.25rem;
+  /* font-size: 3.25rem; Clips sides of text */
 }
 
 /* Sidebar nav */
@@ -88,8 +87,15 @@ html {
   margin-bottom: 1rem;
 }
 .sidebar-nav-item {
-  display: block;
+  padding: 0 0.5rem;
   line-height: 1.75;
+}
+@media (min-width: 48em) {
+  .sidebar-nav-item {
+    padding: 0 0;
+    display: block;
+    line-height: 1.75;
+  }
 }
 a.sidebar-nav-item:hover,
 a.sidebar-nav-item:focus {
@@ -107,7 +113,7 @@ a.sidebar-nav-item:focus {
 
 @media (min-width: 48em) {
   .sidebar-sticky {
-    position: absolute;
+    position: sticky; /* Top aligned title and text */
     right:  1rem;
     bottom: 1rem;
     left:   1rem;
