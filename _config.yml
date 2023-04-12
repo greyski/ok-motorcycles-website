@@ -1,8 +1,7 @@
-title: Ok Motorcycles
+title: OK Motorcycles
 tagline: Motorcycles are OK
-description: 'Motorcycles are OK, and you are OK.'
+description: 'Motorcycles are OK.'
 url: 'https://okmotorcycles.com'
-baseurl: /
 markdown: kramdown
 highlighter: pygments
 permalink: pretty
