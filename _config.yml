@@ -1,26 +1,15 @@
-# Dependencies
-markdown:         redcarpet
-highlighter:      pygments
-
-# Permalinks
-permalink:        pretty
-relative_permalinks: true
-
-# Setup
-title:            Ok Motorcycles
-tagline:          'Motorcycles are OK'
-description:      'Motorcycles are OK, you are OK, let's be OK together.'
-url:              https://okmotorcycles.com
-baseurl:          /
-
+title: Ok Motorcycles
+tagline: Motorcycles are OK
+description: 'Motorcycles are OK, and you are OK.'
+url: 'https://okmotorcycles.com'
+baseurl: /
+markdown: kramdown
+highlighter: pygments
+permalink: pretty
 author:
-  name:           'Ok Moto'
-  url:            https://twitter.com/
-
-paginate:         5
-
-# Custom vars
-version:          0.1.0
-
+  name: Ok Moto
+  url: 'https://twitter.com/'
+paginate: 5
+version: 0.1.0
 github:
-  repo:           https://github.com/greyski/ok-motorcycles-website
+  repo: 'https://github.com/greyski/ok-motorcycles-website'
