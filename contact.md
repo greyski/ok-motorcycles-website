@@ -1,8 +1,8 @@
 ---
 layout: post
-title: About
+title: Contact
 description: An example content.
-permalink: /about/
+permalink: /contact/
 images:
   cover: /images/example1.png
   top: /images/example1.png

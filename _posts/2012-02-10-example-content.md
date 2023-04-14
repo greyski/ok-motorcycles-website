@@ -1,11 +1,11 @@
 ---
 layout: post
-title: About
+title: Example content
 description: An example content.
-permalink: /about/
+permalink: /projects/example4
 images:
-  cover: /images/example1.png
-  top: /images/example1.png
+  cover: /images/example4.jpeg
+  top: /images/example4.jpeg
 ---
 
 <div class="message">

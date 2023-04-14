@@ -1,15 +1,21 @@
 <!DOCTYPE html>
-<html lang="en-us">
-
-  {% include head.html %}
-
+<html lang="en-AU">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/png" href="/favicon.png">
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="stylesheet" href="/assets/flexmasonry/flexmasonry.css">
+    <script src="/assets/flexmasonry/flexmasonry.js"></script>
+  </head>
   <body>
-
     {% include sidebar.html %}
-
-    <div class="content container">
-      {{ content }}
-    </div>
-
+    {{ content }}
+    {% include lazyload.html %}
+    <link rel="stylesheet" href="/assets/lightbox/lightbox.css">
+    <script type="text/javascript" src="/assets/lightbox/lightbox.js"></script>
+    <script src="/assets/js/sidebar.js"></script>
+    <script src="/assets/js/fade-transitions.js"></script>
+    <script>fadeInPage();</script>
   </body>
 </html>

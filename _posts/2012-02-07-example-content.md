@@ -1,8 +1,12 @@
 ---
 layout: post
 title: Example content
+description: An example content.
+permalink: /projects/example
+images:
+  cover: /images/example.png
+  top: /images/example.png
 ---
-
 
 <div class="message">
   Howdy! This is an example blog post that shows several types of HTML content supported in this theme.

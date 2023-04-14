@@ -1,14 +1,11 @@
+# Site settings
 title: OK Motorcycles
-tagline: Motorcycles are OK
-description: 'Motorcycles are OK'
-url: 'https://okmotorcycles.com'
-markdown: kramdown
-highlighter: pygments
-permalink: pretty
-author:
-  name: Ok Moto
-  url: 'https://github.com/greyski/'
-paginate: 5
-version: 0.1.0
-github:
-  repo: 'https://github.com/greyski/ok-motorcycles-website/'
+description: Motorcycles are OK
+image: /images/profile.png
+url: https://okmotorcycles.com
+author: Grey Skold
+lang: en-US
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
