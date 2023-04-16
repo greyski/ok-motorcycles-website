@@ -1,26 +1,63 @@
 @import "constants";
 @import "fonts";
 
+.cover-text-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.cover-hov {
+    display: flex;
+    flex-direction: row;
+    padding: 10px 15px;
+    border-radius: 5px 5px 0px 0px;
+    justify-content: center;
+    border: 2px solid $text-colour-dark;
+    background-color: $text-colour-dark;
+    font-size: 1.5rem;
+}
+
+.cover-hov-icon {
+    display: flex;
+    justify-content: end;
+    margin-right: 0.25em
+}
+
+.cover-hov-icon img {
+    height: 2.5em;
+}
+
+.cover-hov-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: $sidebar-colour;
+    font-weight: bold;
+    margin-left: 0.25em;
+}
+
+.cover-wrap {
+    display: flex;
+    flex-direction: column;
+}
+
 .cover-text {
-    h1 {
-        color: $primary-highlight;
-        margin: 0;
-    }
-    h6 {
-        text-transform: uppercase;
-        color: $text-colour-light;
-    }
-    a {
-        color: $primary-highlight;
-        :hover {
-            color: lighten($primary-highlight, 24%);
-        }
-    }
+    display: block;
+    padding: 10px 15px;
+    border-radius: 0px 0px 5px 5px;
+    justify-content: center;
+    text-align: center;
+    border: 2px solid $text-colour-dark;
+    background-color: $sidebar-colour;
+    color: $text-colour-dark;
+    font-weight: bold;
+    font-size: 2rem;
 }
 
 .open-button-container {
     width: 100%;
-    margin-top: 20px;
     display: flex;
     justify-content: center;
 }
@@ -38,16 +75,4 @@
     flex-direction: column;
     text-align: center;
     justify-content: center;
-}
-
-.cover-image {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-}
-
-.cover-tagline {
-    max-width: 250px;
-    margin: auto;
-    color: $hover-colour;
 }

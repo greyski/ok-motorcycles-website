@@ -6,7 +6,7 @@ html, body {
     padding: 0px;
     height: 100%;
     box-sizing: border-box;
-    font-family: "Open Sans", Arial, sans-serif;
+    font-family: "Highway Gothic", Arial, sans-serif;
     font-size: 16px;
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
@@ -24,7 +24,6 @@ h1 {
     font-size: 2rem; 
     margin: 0.5em 0 1em 0;
     font-weight: bold;
-    line-height: 1.7;
 }
 
 h2 {
@@ -33,28 +32,24 @@ h2 {
     padding-bottom: 0.7em;
     border-bottom: 1px solid #ddd;
     font-weight: bold;
-    line-height: 1.7;
 }
 
 h3 {
     font-size: 1.5rem;
     margin: 1.75em 0 1.2em;
     font-weight: bold;
-    line-height: 1.7;
 }
 
 h4 {
     font-size: 1.25rem;
     margin: (1.25rem / 2) 0 (1.25rem / 2.5) 0;
     font-weight: bold;
-    line-height: 1.7;
 }
 
 h5 {
     font-size: 1.15rem;
     margin: (1.15rem / 2) 0 (1.15rem / 2.5) 0;
     font-weight: bold;
-    line-height: 1.7;
 }
 
 h6 {

@@ -2,7 +2,7 @@
 layout: post
 title: Example content
 description: An example content.
-permalink: /projects/example4
+permalink: /gallery/example4
 images:
   cover: /images/example4.jpeg
   top: /images/example4.jpeg

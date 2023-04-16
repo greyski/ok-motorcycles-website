@@ -1,9 +1,8 @@
 # Site settings
-title: OK Motorcycles
-description: Motorcycles are OK
-image: /images/profile.png
+title: OK MOTORCYCLES
+description: MOTORCYCLES ARE OK
 url: https://okmotorcycles.com
-author: Grey Skold
+author: Grey Sköld
 lang: en-US
 
 plugins:

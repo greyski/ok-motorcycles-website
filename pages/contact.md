@@ -2,7 +2,7 @@
 layout: post
 title: Contact
 description: An example content.
-permalink: /contact/
+permalink: /contact
 images:
   cover: /images/example1.png
   top: /images/example1.png

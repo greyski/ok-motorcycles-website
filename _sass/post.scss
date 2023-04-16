@@ -6,6 +6,7 @@
 
 .post {
     max-width: 100%;
+    margin: 2em 0 2em 0;
 }
 
 .post-description {
@@ -20,7 +21,7 @@
 
 .post-image {
     max-width: 100%;
-    max-height: 600px;
+    max-height: 90vh;
 }
 
 .post-tags {
@@ -31,11 +32,14 @@
 
 .post-content {
     margin: 2em 2em;
+    border: 2px solid $text-colour-dark;
+    padding: 10px 15px;
+    border-radius: 5px;
 }
 
 .clickable-image {
     max-width: 100%;
-    max-height: 600px;
+    max-height: 90vh;
     text-align: center;
 }
 
@@ -46,6 +50,5 @@
 
 .post-content img {
     max-width: 100%;
-    max-height: 600px;
-    border-radius: 5px;
+    max-height: 90vh;
 }

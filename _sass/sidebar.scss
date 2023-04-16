@@ -2,22 +2,27 @@
 @import "fonts";
 
 .sidebar-text {
-    h1 {
-        margin: 0;
-        :hover {
-            color: lighten($primary-highlight, 14%);
-        }
+    padding: 10px 15px;
+    border-radius: 8px;
+    justify-content: center;
+    transition: all .25s ease;
+    text-align: center;
+    border: 4px solid $text-colour-dark;
+    background-color: $sidebar-colour;
+    color: $text-colour-dark;
+    font-weight: bold;
+    text-decoration: none;
+    color: $primary-highlight;
+    &:hover, &:focus {
+        background-color: $text-colour-dark;
+        color: $sidebar-colour;
     }
     h6 {
         text-transform: uppercase;
         color: $text-colour-light;
     }
-    a {
-        text-decoration: none;
-        color: $primary-highlight;
-        &:hover, &:focus {
-            color: lighten($primary-highlight, 14%);
-        }
+    h1 {
+       margin: 0;
     }
 }
 
@@ -46,12 +51,6 @@
     max-width: 250px;
     margin: auto;
     color: $hover-colour;
-}
-
-.github-image {
-    width: 1rem;
-    margin-right: .5rem;
-    vertical-align: middle;
 }
 
 #sidebar {
@@ -104,12 +103,6 @@
         height: $sidebar-height-min;
     }
 
-    .sidebar-text {
-        h6 {
-            margin: 0;
-        }
-    }
-
     .content {
         max-width: 100%;
         margin: calc(#{$sidebar-height} + 1em) 1em 1em 1em;
@@ -140,21 +133,8 @@
             margin-left: 1em;
         }
 
-        .sidebar-image-container {
-            margin-right: 1em;
-        }
-    
-        .sidebar-image {
-            width: 80px;
-            height: 80px;
-            border-radius: 50%;
-        }
-
         .sidebar-text {
             text-align: start;
-            h1 {
-                margin-top: -0.2em;
-            }
         }
 
         .sidebar-links {
@@ -179,9 +159,8 @@
         }
 
         .sidebar-text {
-            h1 {
-                margin-top: -0.3em;
-            }
+            border: none;
+            border-radius: 0px;
         }
 
         .sidebar-links {
@@ -204,23 +183,17 @@
         flex-direction: column;
         text-align: center;
         justify-content: start;
-        padding-top: 1em;
+        margin: 2em 1em 0 2em;
     }
 
     .sidebar, .sidebar-minimised {
         width: $sidebar-width;
         height: 100%;
     }
-
-    .sidebar-image {
-        width: 200px;
-        height: 200px;
-        border-radius: 50%;
-      }
     
     .content {
         justify-content: space-between;
-        margin: 1em 1em 1em calc(1em + #{$sidebar-width});
+        margin: 0 1em 0 calc(3em + #{$sidebar-width});
     }
 
     .sidebar-links {
@@ -229,7 +202,7 @@
 
     #content-fader {
         top: 0;
-        width: calc(100% - #{$sidebar-width});
+        width: calc(100% - #{$sidebar-width} - 3em);
         height: 100%;
         background: white;
     }
@@ -237,7 +210,7 @@
     #sidebar-fader {
         bottom: 0;
         height: 100%;
-        width: $sidebar-width;
+        width: calc(3em + #{$sidebar-width});
     }
 
     .post-buttons {
